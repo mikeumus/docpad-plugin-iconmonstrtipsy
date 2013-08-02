@@ -4,10 +4,10 @@
 ![Alt text](https://googledrive.com/host/0B9LVk4xbDIJTSWVYcU5fb0RUVVk/iconmonstrs.png "Current icons available screenshot.")
 
 Function:
-getIconmonstrTipsyBlock(`icon`,`CSSclass`, 'tip')
+getIconmonstrTipsyBlock(`iconName`,'iconId`,`iconClass`,`tipsy`)
 
 Real world example:
-`<%- @getIconmonstrTipsyBlock('globe','iconmonstr-head-nav','data-placement="right" data-content="Some more content here. This is my second tooltip."') %>`
+`<%- @getIconmonstrTipsyBlock('globe','iconmonstr-head-id','cool-class','data-placement="right" data-content="Some more content here. This is my second tooltip."') %>`
 
 ### Required
 
