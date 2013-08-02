@@ -6,7 +6,7 @@ module.exports = (BasePlugin) ->
 		name: 'iconmonstrtipsy'
 
 		# For the fixed/flaoting iconmonstr bar.
-		iconmonstrIcon: (iconName,iconId,iconClass,tipsy) ->
+		iconmonstrTipsyIcon: (iconName,iconId,iconClass,tipsy) ->
 
 			switch iconName
 				when 'globe'
@@ -201,7 +201,7 @@ module.exports = (BasePlugin) ->
 
 			iconmonstrTipsyBlock = """
 				<!-- iconmonstr START -->
-				<svg id="#{iconId} class="#{iconClass} rel="tipsysy" #{tipsysy} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+				<svg id="#{iconId}" class="#{iconClass}" rel="tipsy" #{tipsy} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 				#{path}
 				</svg>
 				<!-- iconmonstr END -->
