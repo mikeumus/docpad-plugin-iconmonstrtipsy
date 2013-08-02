@@ -1,4 +1,4 @@
-# iconmonstr icons for DocPad
+# iconmonstr + tipsy for DocPad
 ### via Eco functions
 
 ![Alt text](https://googledrive.com/host/0B9LVk4xbDIJTSWVYcU5fb0RUVVk/iconmonstrs.png "Current icons available screenshot.")
