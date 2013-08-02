@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-iconmonstrtipsy",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Eco iconmonstr SVG icons as functions for Docpad via getBlock() codes, plus a tooltip argument!",
   "homepage": "https://github.com/mikeumus/docpad-plugin-iconmonstrtipsy.git",
   "keywords": [
