@@ -233,6 +233,14 @@ module.exports = (BasePlugin) ->
 						V210.212z M359.97,239.912H156.03v32.175H359.97V239.912z M359.97,301.787H156.03v32.175H359.97V301.787z"/>
 							"""
 
+				when 'audio3'
+					path = """
+						<path id="audio-3-icon" d="M152.158,333.387h-57.69c-15.446,0-27.968-12.521-27.968-27.969v-98.835
+						c0-15.448,12.521-27.97,27.968-27.97h57.69V333.387z M183.593,171.676v168.648l135.169,77.824V93.852L183.593,171.676z
+						M445.449,272.964h-71.571v-33.626H445.5L445.449,272.964z M371.648,200.863l-18.894-27.813l60.63-41.19l18.897,27.815
+						L371.648,200.863z M413.157,380.141l-60.655-41.159l18.879-27.82l60.754,41.221L413.157,380.141z"/>
+							"""
+
 			iconmonstrTipsyBlock = """
 				<!-- iconmonstr START -->
 				<svg id="#{iconId}" class="#{iconClass}" rel="tipsy" #{tipsy} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
